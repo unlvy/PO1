@@ -61,6 +61,4 @@ class MyArray {
         int _size;
         /// array
         int* _array;
-
 };
-
