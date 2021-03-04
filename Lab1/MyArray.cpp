@@ -36,7 +36,6 @@ MyArray::MyArray(MyArray&& other) {
 }
 
 MyArray::~MyArray() {
-    std::cout << "Usuwam tablice!" << std::endl;
     if(_size > 0) {
         delete[] _array;
     }
