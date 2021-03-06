@@ -1,7 +1,8 @@
 #include "MyArray.h"
 
 MyArray::MyArray() {
-    MyArray(0);
+    _size = 0;
+    _array = nullptr;
 }
 
 MyArray::MyArray(int size) {
