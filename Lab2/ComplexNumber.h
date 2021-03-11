@@ -67,7 +67,6 @@ public:
      */
     double& operator[] (unsigned index);
 
-
                 // friend functions
 
     /**
