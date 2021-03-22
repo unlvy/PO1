@@ -101,7 +101,7 @@ int MyArray::operator[] (int index) const {
 MyArray& MyArray::operator= (const MyArray& other) {
     if (&other != this) {
         if (other._array != nullptr) {
-            delete _array;
+            delete[] _array;
         }
         _size = other._size;
         if (_size > 0) {
